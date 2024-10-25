@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #F5F5F5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    
+    main {
+
+
+    }
+    header {
+    background-color: #63c94b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    width: 50%; /* Define a largura */
+    text-align: center; /* Centraliza o texto */
+}
+
+    header h1 {
+        margin: 0;
+       
+
+    }
+
+    section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+    
+   
+    nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        background-color: #63c94b;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px auto; /* Centraliza horizontalmente */
+        width: 50%; /* Define a largura */
+
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav a:hover {
+        color: #e0e934;
+    }
+    
+    
+    #galeria-titulo {
+        text-align: center;
+        color: #63c94b;
+        font-size: 28px;
+        margin: 20px 0;
+    }
+    
+ 
+    table {
+        margin: 0 auto; 
+        border-collapse: collapse; 
+    }
+    
+   
+    td {
+        padding: 10px; 
+    }
+    
+    td img {
+        border: 2px solid #ddd; /* borda padrão */
+        border-radius: 8px; /* borda arredondada */
+        transition: transform 0.3s, box-shadow 0.3s; /* transições para efeitos */
+    }
+    
+    /* Efeito de zoom e sombra ao passar o mouse sobre as imagens */
+    td img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Linhas horizontais */
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #ddd;
+        margin: 30px 0;
+    }
+    
+    /* Rodapé */
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #63c94b;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px auto; /* Centraliza horizontalmente */
+        width: 50%; /* Define a largura */
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    footer small {
+        display: block;
+        margin: 5px 0;
+    }
+</style>
+        
+</head>
+<body>
+<main>
+    <header>
+        <h1>Clinica ABC Health</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="cadastro.html">Login</a></li>
+        </ul>
+    </nav>
+
+<section>
+    <h2 id="galeria-titulo">Nossa Estrutura</h2>
+
+    <table>
+        <tr>
+            <td><img src="imagens/imagem1.jpg" alt="Imagem 1" width="150"></td>
+            <td><img src="imagens/imagem2.png" alt="Imagem 2" width="190"></td>
+            <td><img src="imagens/imagem3.jpeg" alt="Imagem 3" width="150"></td>
+            <td><img src="imagens/imagem4.jpg" alt="Imagem 4" width="150"></td>
+        </tr>
+        <tr>
+            <td><img src="imagens/imagem5.jpeg" alt="Imagem 5" width="150"></td>
+            <td><img src="imagens/imagem6.jpeg" alt="Imagem 6" width="150"></td>
+            <td><img src="imagens/imagem7.jpeg" alt="Imagem 7" width="155"></td>
+            <td><img src="imagens/imagem8.jpeg" alt="Imagem 8" width="150"></td>
+        </tr>
+    </table>
+</section>
+ 
+
+    <footer>
+        <small><i>Contato: (11) 1234-5678</i></small>
+        <br>
+        <small><i>Endereço: Rua Saúde, 123 - São Paulo, SP</i></small>
+    </footer>
+</main>
+    
+</body>
+</html>
